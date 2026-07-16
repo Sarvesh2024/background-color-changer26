@@ -1,16 +1,80 @@
-# React + Vite
+# 🎨 Background Color Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive React application that allows users to change the background color of the page by clicking different color buttons. This project was built to practice React fundamentals, especially the **useState** hook and event handling.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🎨 Change the background color dynamically
+* ⚛️ Built with React functional components
+* 🔄 State management using the `useState` hook
+* 🖱️ Event handling with button clicks
+* 📱 Responsive and clean user interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── App.jsx
+├── main.jsx
+├── index.css
+└── assets/
+```
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/background-color-changer.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd background-color-changer
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`.
+
+## 📚 What I Learned
+
+* Managing state using the `useState` hook
+* Handling user interactions in React
+* Updating the UI dynamically based on state changes
+* Building React applications using Vite
+* Creating reusable and clean React components
+
+## 🔮 Future Improvements
+
+* Add a custom color picker
+* Save the selected color using Local Storage
+* Add smooth transition animations
+* Improve accessibility and keyboard navigation
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository, create a new branch, and submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
